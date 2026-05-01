@@ -692,25 +692,35 @@ img {
 }
 
 @media (max-width: 768px) {
-  .nav-links {
-    position: fixed;
-    top: 5rem;
-    left: -100%;
-    width: 100%;
-    height: calc(100vh - 5rem);
-    background-color: var(--bg-primary);
+  .nav-container {
     flex-direction: column;
-    align-items: center;
-    padding-top: 2rem;
-    transition: var(--transition);
+    height: auto;
+    padding: 0.75rem 1rem;
+    gap: 0.5rem;
   }
   
-  .nav-links.active {
-    left: 0;
+  .logo {
+    justify-content: center;
+    width: 100%;
+  }
+  
+  .logo img {
+    height: 2.5rem !important;
+  }
+
+  .nav-links {
+    width: 100%;
+    justify-content: center;
+    gap: 1.25rem;
+    flex-wrap: wrap;
+  }
+
+  .nav-links a {
+    font-size: 0.9rem;
   }
   
   .mobile-menu-btn {
-    display: block;
+    display: none;
   }
   
   .hero h1 { font-size: 2.5rem; }

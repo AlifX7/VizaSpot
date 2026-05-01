@@ -735,6 +735,23 @@ img {
     height: 3.5rem;
     font-size: 1.75rem;
   }
+  
+  .contact-grid {
+    grid-template-columns: 1fr;
+    gap: 2rem;
+  }
+  
+  .service-list {
+    grid-template-columns: 1fr;
+  }
+  
+  .contact-form {
+    padding: 1.5rem;
+  }
+  
+  .page-header {
+    padding: 12rem 0 4rem;
+  }
 }
 
 /* Page Headers (for inner pages) */

@@ -742,6 +742,15 @@ img {
     gap: 2rem;
   }
   
+  .services-grid {
+    grid-template-columns: 1fr !important;
+  }
+  
+  .additional-services-grid {
+    grid-template-columns: 1fr;
+    gap: 2rem;
+  }
+  
   .service-list {
     grid-template-columns: 1fr;
   }
@@ -868,6 +877,12 @@ img {
 }
 
 /* Service Detail Cards for Services Page */
+.additional-services-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(400px, 1fr));
+  gap: 4rem;
+}
+
 .service-detail-category {
   margin-bottom: 4rem;
 }

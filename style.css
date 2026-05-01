@@ -747,11 +747,15 @@ img {
   }
   
   .contact-form {
-    padding: 1.5rem;
+    padding: 1.25rem;
   }
   
   .page-header {
     padding: 12rem 0 4rem;
+  }
+  
+  .container {
+    padding: 0 1rem;
   }
 }
 
